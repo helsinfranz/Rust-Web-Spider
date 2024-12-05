@@ -1,0 +1,10 @@
+[package]
+name = "web_spider"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+reqwest = "0.12.9"
+futures = "0.3.31"
+html5ever = "0.29.0"
